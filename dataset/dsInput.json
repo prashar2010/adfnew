@@ -1,0 +1,19 @@
+{
+	"name": "dsInput",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "ashu.txt",
+				"folderPath": "input",
+				"container": "ashu"
+			}
+		}
+	}
+}
