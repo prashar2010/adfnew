@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "newFile.txt",
+				"fileName": "newFileAshu.txt",
 				"folderPath": "output",
 				"container": "ashu"
 			}
